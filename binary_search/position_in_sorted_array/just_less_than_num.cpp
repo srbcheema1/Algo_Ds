@@ -11,15 +11,18 @@ int binary_search(vector<int> &vec,int l,int r,int num,int best){
 
     int m = (l+r)/2;
 
-    if(vec[m]<num){
+    if(vec[m]<num){//got one good ... still hungary ... go forward
         best=m;//atleast it is good
-        return binary_search(vec,m+1,r,num,best);
+        return binary_search(vec,m+1,r,num,best);//search for more
     }
-    else{
-        return binary_search(vec,l,m-1,num,best);
+    else{//out of reach .. move back
+        return binary_search(vec,l,m-1,num,best);//move back
     }
 }
 
+/*
+ * program to find number just less than num
+ */
 int main(){
     int n;
     cin>>n;
