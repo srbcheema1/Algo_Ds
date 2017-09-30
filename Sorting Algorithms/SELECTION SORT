@@ -1,4 +1,5 @@
-/*Take as input N, the size of array. Take N more inputs and store that in an array. Write a function that selection sorts the array. Print the elements of sorted array.
+/*Take as input N, the size of array. Take N more inputs and store that in an array. 
+Write a function that selection sorts the array. Print the elements of sorted array.
 
 1.It reads a number N.
 2.Take Another N numbers as input and store them in an Array.
