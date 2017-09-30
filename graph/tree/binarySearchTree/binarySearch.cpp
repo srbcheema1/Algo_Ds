@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 #define ulli long long
 using namespace std;
+
 int gcd(int a, int b)
 {
     // Everything divides 0 
@@ -16,6 +17,7 @@ int gcd(int a, int b)
         return gcd(a-b, b);
     return gcd(a, b-a);
 }
+
 vector<ulli> primeFactorise(ulli num)
 {
     vector<ulli> myvect;
@@ -28,6 +30,7 @@ vector<ulli> primeFactorise(ulli num)
     }
     return myvect;
 }
+
 ulli binSearch(vector<ulli> myvect, ulli a, ulli s, ulli e, ulli min)
 {
     ulli mid=(s+e)/2;
@@ -56,6 +59,7 @@ ulli binSearch(vector<ulli> myvect, ulli a, ulli s, ulli e, ulli min)
         return binSearch(myvect, a, s, mid-1, min);
     }
 }
+
 int main()
 
 {
