@@ -64,7 +64,7 @@ int mod_inverse(int a,int m){
     if(temp.gcd != 1)
         return -1;
     else{
-        return modd(temp,m);
+        return modd(temp.gcd,m);
     }
 }
 
