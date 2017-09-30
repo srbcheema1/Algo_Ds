@@ -3,33 +3,6 @@
 
 A cool implementation of data structures and algorithms in C++
 
+This repo helps you in competitive program as it contains many advanced algorithms like Data structures like queue, stack and binary search tree. At the same time it also includes some very useful algorithms for competitive programmers like greedy, graphs including Djikstra, Floyd Warshal algorithm.
 
-This repo basically is for those algorithms that are frequently used in competitive programming.
-
-Struture : 
-
-├── disjoint_set
-│   └── disjoint_set.hpp         # disjoint set implementation
-├── graph
-│   ├── adjacency_list.hpp       # graph implementation with adjacency list
-│   └── adjacency_matrix.hpp     # graph implementation with adjacency matrix
-│   └── topological_sort.hpp     # topological sort (adjacency list)
-├── heap
-│   └── heap.hpp                 # heap implementation
-├── queue
-│   └── queue.hpp                # queue implementation
-├── sorting
-│   ├── bubble.hpp               # bubble sort
-│   └── insertion.hpp            # insertion sort
-│   ├── merge.hpp                # merge sort
-│   ├── quick.hpp                # quick sort
-│   ├── radix.hpp                # radix sort
-│   └── selection.hpp            # selection sort
-├── stack
-│   └── stack.hpp                # stack implementation
-└── tree
-    ├── bst.hpp                  # general tree implementation
-    ├── segment_tree.hpp         # segment tree implementation
-    └── tree.hpp                 # binary search tree
-    
-    Give me star if you like my work! :D
+So, please star this repository because this will be handy to all you programmers out there.
