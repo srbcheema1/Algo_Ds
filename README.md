@@ -2,26 +2,29 @@
 
 ## Overview:
 
-This repo helps you in competitive program as it contains many advanced algorithms like Data structures like queue, stack and binary search tree. At the same time it also includes some very useful algorithms for competitive programmers like greedy, graphs including Djikstra, Floyd Warshal algorithm.
+This repo helps you in competitive programming as it contains many advanced algorithms like greedy, graph traversal algorithms including Djikstra's algorithm and Floyd Warshal algorithm, and data structures like queues, stacks, and binary search trees. 
 
 ## Contents:
 
+### Algorithms
  - Linear Search
- - binary search
+ - Binary Search
  - Bubble Sort
  - Selection Sort
- - insertion sort
- - merge sort
- - quick sort
- - radix sort
- - Dijkstra
+ - Insertion Sort
+ - Merge Sort
+ - Quick Sort
+ - Radix Sort
+ - Dijkstra's Algorithm
  - Floyd Warshall
- - heap
- - queue
- - stack
+ 
+ ### Data Structures
+ - Heaps
+ - Queues
+ - Stacks
 
 ## How to contribute:
 
-Just fork this repo, and start giving any new algorithms which is not in the repo or you can solve any of the issues given.
+Just fork this repo, and start adding any new algorithms which is not in the repo, or you can solve any of the issues given.
 
- At last, star this repo, because this will be handy for you.
+Star this repo, if this will be handy for you.
