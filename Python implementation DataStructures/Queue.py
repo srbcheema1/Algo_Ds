@@ -28,7 +28,8 @@ class Queue:
 
 q=Queue()
 #Create an object of Class Queue
-	
+#Calling the functions
+
 q.enqueue(4)
 q.enqueue('dog')
 q.enqueue(True)
