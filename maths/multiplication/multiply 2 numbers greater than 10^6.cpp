@@ -1,5 +1,5 @@
 /*
-This program can be used to multiply 2 numbers grater than 10^6, usually a major hurdle in languages like C/C++
+This program can be used to multiply 2 numbers grater than 10^5, usually a major hurdle in languages like C/C++
 in competitive programming, using this as a template one can perform implementations like Factorials of 100 etc
 */
 
@@ -10,7 +10,7 @@ int main()
 		ios_base::sync_with_stdio(false);
 		int n1, n2;
 		cin>>n1>>n2;
-		int c = 0, ans[1000000] = {0}, i = 0, basei = 0, temp = n2, dig = 0, tmp;
+		int c = 0, ans[100000] = {0}, i = 0, basei = 0, temp = n2, dig = 0, tmp;
 		while(n1)
 		    {
 		        if(n2)
