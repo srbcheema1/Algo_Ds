@@ -1,8 +1,10 @@
 # Algo_Ds
 
-## Overview:
 
-This repo helps you in competitive program as it contains many advanced algorithms like Data structures like queue, stack and binary search tree. At the same time it also includes some very useful algorithms for competitive programmers like greedy, graphs including Djikstra, Floyd Warshal algorithm.
+## Overview:
+This repo helps you in competitive programming as it contains many advanced algorithms like greedy, graph traversal algorithms including Djikstra's algorithm and Floyd Warshal algorithm, and data structures like queues, stacks, and binary search trees. 
+
+
 
 ## Contents:
 
@@ -29,11 +31,11 @@ This repo helps you in competitive program as it contains many advanced algorith
  - Array
  - Linked List
 
+
+
 ## Languages Used:
  - C++
+ 
 
 ## How to contribute:
-
-Just fork this repo, and start giving any new algorithms which are not in the repo or you can solve any of the issues given.
-
- At last, star this repo, because this will be handy for you.
+Star this repo, if this will be handy for you.
