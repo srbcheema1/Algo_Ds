@@ -6,19 +6,31 @@ This repo helps you in competitive program as it contains many advanced algorith
 
 ## Contents:
 
+### Search Algorithms
  - Linear Search
  - binary search
+
+### Sorting Algorithms
  - Bubble Sort
  - Selection Sort
  - insertion sort
  - merge sort
  - quick sort
  - radix sort
+
+### Shortest Path Algorithms
  - Dijkstra
  - Floyd Warshall
+
+### Common Data Structures
  - heap
  - queue
  - stack
+ - Array
+ - Linked List
+
+## Languages Used:
+ - C++
 
 ## How to contribute:
 
