@@ -1,0 +1,18 @@
+//Given N numbers, calculate sum of their factorial modulo 107.
+
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int n,a,fac,sum=0;
+    cin>>n;
+    while(n--)
+    {
+        cin>>a;
+        fac=1;
+        for(int i=2;i<=a;i++)
+            fac=(fac*i)%107;
+        sum=(sum+fac)%107;
+    }
+    cout<<sum;
+}
