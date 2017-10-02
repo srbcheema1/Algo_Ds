@@ -1,3 +1,5 @@
+#Time Complexity : O(height)
+
 # Python program to demonstrate insert operation in binary search tree 
  
 # A utility class that represents an individual node in a BST

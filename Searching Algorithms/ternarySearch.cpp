@@ -1,3 +1,5 @@
+//Time Complexity : O(log3(n))
+
 //Ternary Search Uses Divide And Conquer Technique
 #include<iostream>
 

@@ -1,3 +1,5 @@
+//Time Complexity: O(sqrt(n))
+
 #include <bits/stdc++.h>
 using namespace std;
  
