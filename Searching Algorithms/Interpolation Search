@@ -1,3 +1,5 @@
+//Time Complexity : O(log(logn))
+
 #include<iostream>
 using namespace std;
 
