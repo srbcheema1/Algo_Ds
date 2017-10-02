@@ -35,6 +35,9 @@ This repo helps you in competitive programming as it contains many advanced algo
 
 ## Languages Used:
  - C++
+ - python
+ - Java 
+ - C
  
 
 ## How to contribute:
