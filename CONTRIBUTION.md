@@ -15,6 +15,36 @@
     <li>Naming of your file must be proper and relevant</li>
   </ul>
 
+<h4>Directory Structure Example</h4>
+<p>please maintain the directory structure as in this example</p>
+- Data structures
+   - stack
+      - DESCRIPTION.md
+      - Python
+         - Applications
+      - Cpp
+         - Applications
+         - ques
+      - Java
+- Sorting Algorithms
+   - bubblesort
+      - DESCRIPTION.md
+      - Python
+         - Applications
+         - ques
+      - Cpp
+        - ques
+      - Java
+- Graph
+  - Dijakstra
+      - DESCRIPTION.md
+      - Cpp
+        - Applications
+        - ques
+      - java
+      - Python
+  
+
 <h4>You may add your solved questions on spoj, codechef, hackerearth, hackerrank and codeforces.</h4>
   <ul>
     <li>First line of your code must begin with a comment mentioning the link of the question</li>
