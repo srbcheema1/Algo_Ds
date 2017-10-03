@@ -36,3 +36,13 @@
           </ui>
       </ul>
   </ul>
+
+<h4>Best Practice of creating a Pull Request</h4>
+<ul>
+  <li>The PR name should be meaningful.</li>
+  <li>For e.g. 'Fixes #(issue-number): PR name, fixing the particular bug' (without commas)</li>
+  <li>There should be always 1 commit for 1 PR</li>
+  <li>If there are more than 1 commit in a PR, squash them.</li>
+  <li>Pull Request details should be descriptive.</li>
+  <li>Commit message should meaningful.</li>
+</ul>
