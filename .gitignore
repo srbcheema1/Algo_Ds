@@ -47,3 +47,5 @@ CTestTestfile.cmake
 
 # files to check the functionality
 check_*.cpp
+
+.DS_STORE
