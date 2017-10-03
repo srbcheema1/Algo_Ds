@@ -9,7 +9,7 @@
     <li>you may mention complexity of a function in comment</li>
       <ul>
         <li>time complexity : </li>
-        <li>space complexity</li>
+        <li>space complexity : </li>
       </ul>
     <li>place your code in right directory</li>
     <li>naming of your file must be proper and relevant</li>
@@ -19,4 +19,20 @@
   <ul>
     <li>first line of your code must begin with a comment mentioning the link of the question</li>
     <li>place the solutions in seperate folder "ques" in relevant directory</li>
+  </ul>
+
+<h4>DESCRIPTION.md</h4>
+  <p>if not there you are free create a DESCRIPTION.md file in a folder </p>
+  <ul>
+    <li>please write a breif description of your algorithm in DESCRIPTION.md file</li>
+    <li>you can mention the following thing in that</li>
+      <ul>
+        <li>description of your algorithm</li>
+        <li>time and space complexity of your algorithm</li>
+        <li>links to your fav online questions solvable by that algorithm</li>
+          <ui>
+            <li>you may also provide solution to that questions in "ques" folder in the same directory</li>
+            <li>also mention link of solution(if there) along the question link</li>
+          </ui>
+      </ul>
   </ul>
