@@ -1,7 +1,7 @@
 
-#Directory Structure Example
+# Directory Structure Example
 
-##please maintain the directory structure as in this example
+## please maintain the directory structure as in this example
 
 - Data structures
    - stack
