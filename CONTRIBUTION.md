@@ -9,7 +9,7 @@
     <li>you may mention complexity of a function in comment</li>
       <ul>
         <li>time complexity : </li>
-        <lt>space complexity</li>
+        <li>space complexity</li>
       </ul>
     <li>place your code in right directory</li>
     <li>naming of your file must be proper and relevant</li>
