@@ -53,5 +53,5 @@ After that, find the folder that fits the category of your code and submit a PR.
 *Star* this repo if the information here is useful to you.
 
 ### Please have a look at these :
- - [CONTRIBUTION.md](https://github.com/srbcheema1/Algo_Ds/blob/master/CONTRIBUTION.md) for quick quidelines
+ - [CONTRIBUTING.md](https://github.com/srbcheema1/Algo_Ds/blob/master/CONTRIBUTING.md) for quick quidelines
  - [STRUCTURE.md](https://github.com/srbcheema1/Algo_Ds/blob/master/STRUCTURE.md) for structure of directories
