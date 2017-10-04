@@ -51,4 +51,6 @@ Avoid at all cost bad implementation, make your code as clean as possible.
 After that, find the folder that fits the category of your code and submit a PR.
 Star this repo if the info here is useful to you.
 
-
+### Please have a look at these :
+ - [CONTRIBUTION.md](https://github.com/srbcheema1/Algo_Ds/blob/master/CONTRIBUTION.md) for quick quidelines
+ - [STRUCTURE.md](https://github.com/srbcheema1/Algo_Ds/blob/master/STRUCTURE.md) for structure of directories
