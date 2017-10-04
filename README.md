@@ -4,7 +4,7 @@
 ## Overview:
 This repo is a conglomeration of algorithms for competitive programming, data structure, sorting and related areas. It currently features C/C++, Python and some Java implementations. It contains many advanced algorithms like greedy, graph traversal algorithms, including Djikstra's algorithm and Floyd Warshal algorithm, and data structures like queues, stacks, and binary search trees. Contributions are highly prized.
 
-Use this repo to study or review your knowledge and don't forget to star and colaborate!
+Use this repo to study or review your knowledge and don't forget to star and collaborate!
 
 ## Contents:
 
@@ -45,10 +45,10 @@ Use this repo to study or review your knowledge and don't forget to star and col
 
 ## How to contribute:
 
-Please comment your code thoroughly as to make it possible for anyone understand.
+Please comment your code thoroughly as to make it possible for anyone to understand.
 If possible, check your code using unit tests. 
-Avoid at all cost bad implementation, make your code as clean as possible.
+Avoid all the bad implementations, make your code as clean as possible.
 After that, find the folder that fits the category of your code and submit a PR.
-Star this repo if the info here is useful to you.
+*Star* this repo if the information here is useful to you.
 
 
