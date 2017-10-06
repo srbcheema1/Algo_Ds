@@ -1,0 +1,32 @@
+//http://www.geeksforgeeks.org/next-greater-element/
+
+//The problem is from geekforgeeks and it is my implementation of it.
+#include<bits/stdc++.h>
+using namespace std;
+
+
+
+int main(){
+	int n;
+	cin>>n;
+	int a[n];
+	int ans[n];
+	for(int i=0;i<n;i++){
+		ans[i]=-1;
+	}
+	for(int i=0;i<n;i++){
+		cin>>a[i];
+	}
+	stack<int> s;
+	for(int i=0;i<n;i++){
+		
+		while(!s.empty()&&a[i]>a[s.top()]){
+			ans[s.top()]=a[i];
+			s.pop();
+		}
+		s.push(i);
+	}
+	for(int i=0;i<n;i++){
+		cout<<a[i]<<" "<<ans[i]<<endl;
+	}
+}
