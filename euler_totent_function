@@ -1,0 +1,27 @@
+//N is the limit, upto which we need to find ETF values
+//phi[x] stores the ETF value of number x.
+//Euler's totient function counts the positive integers up to a given integer N that are relatively prime to N. It is written using the Greek letter phi as φ(N) or ϕ(N), and may also be called Euler's phi function.
+
+//In other words φ(N) is defined as number of integers K in the range 1 ≤ K ≤ N for which the greatest common divisor gcd(N, K) is equal to 1. The integers K of this form are called totatives of N. 
+
+
+int phi[N+1];
+
+void sieve()
+{
+	int i,j;
+
+	for(i = 1; i <= N; i++)
+		phi[i] = i;
+
+	for(i = 2; i <= N; i++) {
+		if(phi[i] == i) {
+			for(j = i; j <= N; j += i) {
+				phi[j] /= i;
+				phi[j] *= (i-1);
+			}
+		}
+	}
+}
+
+
