@@ -1,4 +1,6 @@
 /*This program checks whether an entered string is Bracket Balanced ot not.By Bracket balanced we mean a opening bracket ('(','{','[') to be complemented by a closing bracket (')','}',']').
+Time Complexity :O(n)
+Auxiliary Space :O(n)
 Similar quesion(s) for practice :https://www.hackerrank.com/challenges/balanced-brackets/problem
 */
 #include<bits/stdc++.h>
