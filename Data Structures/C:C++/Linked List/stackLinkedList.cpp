@@ -90,7 +90,7 @@ int main(){
 				cout<<"POPPED ELEMENT IS "<<s.pop()<<endl;
 				break;
 			case 3:
-				cout<<"TOP = "<<s.top();
+				cout<<"TOP = "<<s.top()<<endl;
 				break;
 			case 4:
 				if(!s.isEmpty())
