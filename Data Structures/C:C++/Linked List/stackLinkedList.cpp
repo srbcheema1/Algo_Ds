@@ -1,69 +1,106 @@
-#include<bits/stdc++.h>
+/*Stack Using LinkedList
+ * push O(1)
+ * pop  O(1)
+ */
+
+
+#include<iostream>
+
+
+using namespace std;
 
 struct node{
 	int item;
-	struct node* next;
+	node* next;
 };
 
-struct node* head;
-int size;
 
-void insertathead(){
-	struct node* ptr;
-	ptr = (struct node*)malloc(sizeof(struct node));
-	printf("Enter data : ");
-	scanf("%d",&ptr->item);
-	printf("\n");
-	ptr->next = NULL;
-	if(head == NULL){
-		head = ptr;
+class stack{
+	private:
+		node* tos;
+	public:
+		stack(){
+			tos=NULL;
+		};
+		void push(int);
+		int pop();
+		int top();
+		int isEmpty();
+};
+
+
+
+void stack::push(int data){
+	node *temp=new node();
+	temp->item=data;
+	if(tos==NULL){
+		tos=temp;
+		temp->next=NULL;
 		return;
 	}
-	ptr->next = head;
-	head = ptr;
+	else{
+		temp->next=tos;
+		tos=temp;
+	}
 }
 
-void pop(){
-	if(head==NULL){
-		printf("UnderFlow\n");
-		return;
+
+int stack::pop(){
+	node *temp=tos;
+	int data;
+	if(tos==nullptr){
+		cout<<"UNDERFLOW"<<endl;
+		exit(0);
 	}
-	if(head->next == NULL){
-		head=NULL;
-		return;
+	else{
+		data=temp->item;
+		tos=temp->next;
+		free(temp);
+		return data;
 	}
-	struct node* temp;
-	temp = head;
-	head = head->next;
-	temp->next = NULL;
-}
-void print(){
-	struct node* temp;
-	temp = head;
-	printf("List : ");
-	while(temp!=NULL){
-		printf("%d ",temp->item);
-		temp = temp->next;
-	}
-	printf("\n");
 }
 
+
+int stack::isEmpty(){
+	return tos==nullptr;
+}
+
+int stack::top(){
+	if(tos==NULL){
+		cout<<"EMPTY"<<endl;
+		return -1;
+	}
+	return tos->item;
+};
+
+		
 int main(){
-	head=NULL;
-	printf("Enter the size of array\n");
-	scanf("%d",&size);
-	while(1){
-		printf("Enter choice\n1.Insert\n2.Pop\n3.Print\n");
-		int ch;
-		scanf("%d",&ch);
-		if(ch==1){
-		insertathead();
+	int choice,temp,x;
+	stack s;
+	do{
+		cout<<"1:PUSH \t 2:POP \t 3:TOP \t 4:isEmpty \n";
+		cin>>choice;
+		switch(choice){
+			case 1:
+				cout<<"ENTER VALUE :";
+				cin>>temp;
+				s.push(temp);
+				break;
+			case 2:
+				cout<<"POPPED ELEMENT IS "<<s.pop()<<endl;
+				break;
+			case 3:
+				cout<<"TOP = "<<s.top()<<endl;
+				break;
+			case 4:
+				if(!s.isEmpty())
+					cout<<"NOT EMPTY"<<endl;
+				else
+					cout<<"EMPTY"<<endl;
+				break;
 		}
-		else if(ch==2){
-			pop();	
-		}
-		else if(ch==3){
-			print();
-		}
-	}
+		cout<<"Continue (1/0): ";
+		cin>>x;
+	}while(x!=0);
+	return 0;
 }
