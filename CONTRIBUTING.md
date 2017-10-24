@@ -46,3 +46,5 @@
   <li>Pull Request details should be descriptive.</li>
   <li>Commit message should meaningful.</li>
 </ul>
+
+<h4>please have a look at <a href="https://github.com/srbcheema1/Algo_Ds/blob/master/STRUCTURE.md">STRUCTURE.md</a> for file structure</h4>
