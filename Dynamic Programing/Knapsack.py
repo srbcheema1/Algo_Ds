@@ -1,3 +1,5 @@
+######'''Knapsack problem'''#####
+
 memo={}
 included={}
 def DP(val,s,i,x):
@@ -20,7 +22,7 @@ def DP(val,s,i,x):
             memo[(i,x)]=val[i]+DP(val,s,i+1,x-s[i])
             included[i]=1
         return memo[(i,x)]
-        
+
 
 '''Driver Program'''
 val=[4,10,2]
@@ -31,4 +33,4 @@ print('Maximum Value:',value)
 print('Subset:',end=' ')
 for i in included:
     if included[i]:
-        print(val[i],end=' ')
+print(val[i],end=' ')
