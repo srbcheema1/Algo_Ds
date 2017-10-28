@@ -18,7 +18,7 @@ struct stackmp{
 		ll_node<T> *new_node = create_node(new_data);
 		ll_node<T> *temp_node = this->top;
 		new_node->next = temp_node;
-		this->top = new_node;
+		this->top = new_node; // here "this" pointer is used to access the current class's object's parameters
 		size++;
 	}
 
