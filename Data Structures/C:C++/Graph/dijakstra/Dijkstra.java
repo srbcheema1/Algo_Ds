@@ -7,6 +7,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 /**
+ *
  * Input file example:
  *
  * 6
@@ -27,7 +28,9 @@ import java.util.Stack;
  * 5 -> 6 -> 3 -> 1
  * Length: 20
  *
+ *
  */
+
 public class Dijkstra {
 
     private static final String INPUT_FILE_PATH = "input.txt";
