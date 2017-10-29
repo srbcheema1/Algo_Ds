@@ -8,12 +8,12 @@ Use this repo to study or review your knowledge and don't forget to star and col
 
 ## Contents:
 
-### Search Algorithms
+### Search Algorithms:
  - Linear Search
  - binary search
  - Ternary search
 
-### Sorting Algorithms
+### Sorting Algorithms:
 
  - Bubble Sort
  - Selection Sort
@@ -23,12 +23,12 @@ Use this repo to study or review your knowledge and don't forget to star and col
  - Radix sort
  - Bogo sort
 
-### Shortest Path Algorithms
+### Shortest Path Algorithms:
 
  - Dijkstra
  - Floyd Warshall
 
-### Common Data Structures
+### Common Data Structures:
 
  - heap
  - queue
