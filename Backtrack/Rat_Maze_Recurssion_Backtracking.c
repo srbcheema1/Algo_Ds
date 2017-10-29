@@ -12,7 +12,6 @@ void display(int sol[N][N])
 	}
 }
 
-
 int issafe(int maze[N][N],int x,int y)
 {
 	if((x>=0 && x<4) && (y>=0 && y<3) && maze[x][y]==1)
@@ -57,6 +56,7 @@ void solve(int maze[N][N])
 		display(sol);
 	}
 }
+
 void main()
 {
 	int maze[N][N]={{1,0,0,0},{1,1,0,1},{0,1,0,0},{1,1,1,1}};
