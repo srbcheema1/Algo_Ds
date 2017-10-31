@@ -11,7 +11,7 @@ This repo helps you in competitive program as it contains many advanced algorith
  - Bubble Sort
  - Selection Sort
  - insertion sort
- - merge sort
+ - Merge sort
  - quick sort
  - radix sort
  - Dijkstra
