@@ -13,6 +13,7 @@ int main(){
         cin>>a[i];
     }
     ///Take input the element to search
+    ///Time complexity-O(n)
     cin>>M;
     
     ///Linear Search
