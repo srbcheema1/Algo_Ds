@@ -25,7 +25,5 @@ int main(){
         }
     }
     if(i==N){
-        cout<<"-1";
-    }
-    return 0;
+        cout<<"-1nice
 }
