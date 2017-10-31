@@ -10,8 +10,12 @@ This repo helps you in competitive program as it contains many advanced algorith
  - binary search
  - Bubble Sort
  - Selection Sort
+
+ - Insertion sort
+ - merge sort
  - insertion sort
  - Merge sort
+
  - quick sort
  - radix sort
  - Dijkstra
