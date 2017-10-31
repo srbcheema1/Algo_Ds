@@ -13,7 +13,7 @@ This repo helps you in competitive program as it contains many advanced algorith
  - insertion sort
  - merge sort
  - quick sort
- - radix sort
+ - Radix sort
  - Dijkstra
  - Floyd Warshall
  - heap
