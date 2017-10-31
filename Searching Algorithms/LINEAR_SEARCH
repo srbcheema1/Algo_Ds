@@ -13,6 +13,7 @@ int main(){
         cin>>a[i];
     }
     ///Take input the element to search
+    ///Time complexity-O(n)
     cin>>M;
     
     ///Linear Search
@@ -25,7 +26,5 @@ int main(){
         }
     }
     if(i==N){
-        cout<<"-1";
-    }
-    return 0;
+        cout<<"-1nice
 }
