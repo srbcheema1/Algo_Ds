@@ -17,7 +17,7 @@ This repo helps you in competitive program as it contains many advanced algorith
  - Merge sort
 
  - quick sort
- - radix sort
+ - Radix sort
  - Dijkstra
  - Floyd Warshall
  - heap
