@@ -18,7 +18,7 @@ This repo helps you in competitive program as it contains many advanced algorith
  - Floyd Warshall
  - heap
  - queue
- - stack
+ - Stack
 
 ## How to contribute:
 
