@@ -25,7 +25,6 @@ using namespace std;
 #define loopb(X,Y) for(int i=X;i>Y;i--)
 #define space printf(" ")
 #define dout(X) if(X)
-#define matrix(rowsize,colsize,type,name) vector<vector<(type)>> name((rowsize),vector<(type)>(colsize));
 int main(){
 		return 0;
 }
