@@ -51,4 +51,3 @@ insert(r,Node(100))
 insert(r,Node(200))
 # Print inoder traversal of the BST
 inorder(r)
- 
