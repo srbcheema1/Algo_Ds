@@ -1,0 +1,11 @@
+* Write all the search algorithms in different classes.
+* Make one driving program containing the main to access all the search classes.
+* Use java packages.
+
+To continue adding the search algorithm:
+* Make a class name of that algorithm name.
+* include in the package asset as: package asset;
+* write the .java files in algos directory.
+* Compile the .java files as: `javac -d ../ <filename.java>`.
+* Check if the .class file get added in the asset folder.
+* To run these class files, include: `import asset.<file/algo_name>` in the **driving.java** (the driving program).
