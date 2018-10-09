@@ -38,10 +38,9 @@ Use this repo to study or review your knowledge and don't forget to star and col
 
 ## Languages Used:
 
- - C++
- - python
+ - C/C++
+ - Python
  - Java 
- - C
  - More to come
 
 ## How to contribute:
