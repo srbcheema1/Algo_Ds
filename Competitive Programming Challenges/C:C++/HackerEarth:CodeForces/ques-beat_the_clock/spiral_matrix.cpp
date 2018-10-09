@@ -27,7 +27,7 @@ typedef pair<int,int> mp;
 int debugg = 0;
 
 /*
- * func to return matrix in a vector such that it is unfolded 
+ * function to return matrix in a vector such that it is unfolded 
  * vec is vector of vectors containing the matrix
  * m and n are dimentions
  */
