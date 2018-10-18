@@ -15,7 +15,7 @@
     <li>Give your files names that are relevant and meaningful.</li>
   </ul>
 
-<h4>You may add your solved questions on spoj, codechef, hackerearth, hackerrank and codeforces.</h4>
+<h4>You may add your solved questions on spoj, codechef, interviewbit, hackerearth, hackerrank and codeforces.</h4>
   <ul>
     <li>First line of your code must begin with a comment mentioning the link of the question</li>
     <li>Place the solutions in seperate folder "ques" in relevant directory</li>

@@ -1,4 +1,5 @@
 
+
 #include <stdio.h>
  
 void Bucket_Sort(int array[], int n)
@@ -19,7 +20,7 @@ void Bucket_Sort(int array[], int n)
 
 int main()
 {
-    int array[100], i, num; 
+    int array[], i, num; 
  
     printf("Enter the size of array : ");   
     scanf("%d", &num);   
@@ -34,5 +35,4 @@ int main()
     for (i = 0; i < num; i++)
         printf("%d ", array[i]);   
     printf("\n");     
-    return 0;
-}
+
