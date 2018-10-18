@@ -1,33 +1,36 @@
-#include<stdio.h>
- 
-#define SIZE 10
- 
-void bucketSort(int a[], int n) {
-    int i, j, k, buckets[SIZE];
-    
-    for(i = 0; i < SIZE; ++i)
-        buckets[i] = 0;
-    
-    for(i = 0; i < n; ++i)
-        ++buckets[a[i]];
-        
-    for(i = 0, j = 0; j < SIZE; ++j)
-        for(k = buckets[j]; k > 0; --k)
-            a[i++] = j;
-}
- 
-int main() {
-    int i, a[] = {3, 6, 5, 1, 8, 4, 3, 1}, n = 8;
-    
-    printf("Before sorting:\n");
-    for(i = 0; i < n; ++i)
-        printf("%d ", a[i]);
-    
-    bucketSort(a, n);
-    
-    printf("\n\nAfter sorting:\n");
-    for(i = 0; i < n; ++i)
-        printf("%d ", a[i]);
-    
+#include <stdio.h>
+void Bucket_Sort(int array[],int n);
+int main()
+{
+    int array[100], i, n;
+
+    printf("Enter the size of array : ");
+    scanf("%d", &n);
+    printf("Enter the %d elements to be sorted:\n",n);
+    for (i = 0; i < n; i++)
+        scanf("%d", &array[i]);
+    printf("\nThe array of elements before sorting : \n");
+    for (i = 0; i < n; i++)
+        printf("%d ", array[i]);
+    printf("\nThe array of elements after sorting : \n");
+    Bucket_Sort(array, n+1);
+    for (i = 0; i < n; i++)
+        printf("%d ", array[i]);
+    printf("\n");
     return 0;
 }
+void Bucket_Sort(int array[], int n)
+{
+    int i, j;
+    int count[n];
+    for (i = 0; i < n; i++)
+        count[i] = 0;
+
+    for (i = 0; i < n; i++)
+        (count[array[i]])++;
+
+    for (i = 0, j = 0; i < n; i++)
+        for(; count[i] > 0; (count[i])--)
+            array[j++] = i;
+}
+
