@@ -1,0 +1,30 @@
+/*
+			 written by vishal choudhary
+			 email id vishal130.vk@gmail.com
+			 at Mon Jan  8 10:57:14 IST 2018 
+*/
+#include<bits/stdc++.h>
+using namespace std;
+#define lli long long int
+#define ulli unsigned long long int
+#define ll long long 
+#define ull  unsigned long long
+#define mp make_pair
+#define s(n)   scanf("%d",&n)
+#define sc(n)  scanf("%c",&n)
+#define sl(n)  scanf("%lld",&n)
+#define sf(n)  scanf("%lf",&n)
+#define ss(n)  scanf("%s",n)
+#define p(n)   printf("%d",n)
+#define pc(n)  printf("%c",n)
+#define pl(n)  printf("%lld",n)
+#define pf(n)  printf("%lf",n)
+#define ps(n)  printf("%s",n)
+#define pn printf("\n")
+#define loopf(X,Y) for(int i=X;i<Y;i++)
+#define loopb(X,Y) for(int i=X;i>Y;i--)
+#define space printf(" ")
+#define dout(X) if(X)
+int main(){
+		return 0;
+}
