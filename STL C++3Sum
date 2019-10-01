@@ -1,0 +1,45 @@
+class Solution {
+public:
+    vector<vector<int>> threeSum(vector<int>& nums) {
+        
+        if(nums.size()<=2)
+            return vector<vector<int>>();
+        
+        sort(nums.begin(),nums.end());
+        vector<vector<int>> res;
+        
+        int req_sum;
+        for(int i=0;i<nums.size()-2;i++)
+        {
+            req_sum = -nums[i];
+            int j=i+1;
+            int k=nums.size()-1;
+            while(j<k)
+            {
+                if(nums[j]+nums[k] < req_sum)
+                    j++;
+                else if(nums[j]+nums[k]>req_sum)
+                    k--;
+                else
+                {
+                    int val1=nums[j];
+                    int val2=nums[k];
+                    res.push_back({nums[i],nums[j],nums[k]});
+                    while(j<k && nums[j]==val1)
+                        j++;
+                    while(j<k && nums[k]==val2)
+                        k--;
+                }
+            }
+        while(i+1<nums.size() && nums[i+1]==nums[i])
+            i++;        
+            
+        }
+        
+        return res;
+        
+        
+        
+        
+    }
+};
