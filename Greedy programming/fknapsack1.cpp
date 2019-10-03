@@ -2,6 +2,7 @@
 #include<iostream>
 using namespace std;
 
+//using quicksort to simultaneously sort the array of profit and weight
 int partition(int a[],int b[],int l,int r)
 {
     int pivot=a[r];
@@ -41,15 +42,13 @@ int partition(int a[],int b[],int l,int r)
     }
 }
 
-void sort_items(int w[],int p[],int n)
-{
-
-}
 
 int main()
 {
     int n, wa=0,pa=0,W=100;
     n=5;
+    //w[]:array of weights of items
+    //p[]:array of profit of items
     int w[5] = {10,20,30,40,50};int p[5]={20,30,66,40,60};
     int ans[5]; int j=0;
     quick_sort(p,w,0,n-1);
