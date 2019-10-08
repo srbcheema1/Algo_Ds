@@ -2,7 +2,8 @@
 
 
 ## Overview:
-This repo is a conglomeration of algorithms for competitive programming, data structure, sorting and related areas. It currently features C/C++, Python and some Java implementations. It contains many advanced algorithms like greedy, graph traversal algorithms, including Dijkstra's algorithm and Floyd Warshal algorithm, and data structures like queues, stacks, and binary search trees.
+This repo is a conglomeration of algorithms for competitive programming and learning data structures and Algorithms. You may learn a lot of different algorithms such as sorting, searching, and algorithms for graph theory, mathematical problems and Dynamic Programmng questions.The code for every algorithms  currently features C/C++, Python and some Java implementations.
+There is use of features of C++ STL for easy implementation. The code are written in the most optimised form with having time analysis in Big Oh Notation.
 
 Use this repo to study or review your knowledge and don't forget to star and collaborate!
 
@@ -23,16 +24,16 @@ Use this repo to study or review your knowledge and don't forget to star and col
  - Radix sort
  - Bogo sort
 
-### Shortest Path Algorithms
+### Shortest Path Algorithms / Graph Theory
 
  - Dijkstra
  - Floyd Warshall
 
 ### Common Data Structures
 
- - heap
- - queue
- - stack
+ - Heap
+ - Queue
+ - Stack
  - Array
  - Linked List
 
