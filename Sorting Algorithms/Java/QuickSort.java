@@ -62,8 +62,9 @@ class QuickSort
     
     static void printArray(int array[]) 
     { 
-        for (int i: array) 
-            System.out.print(array[i]+" "); 
+        for (int i: array) {
+            System.out.print(i+" "); 
+        }	
         System.out.println(); 
     } 
   
@@ -72,7 +73,7 @@ class QuickSort
         int array[] = {10, 7, 8, 9, 1, 5}; 
         int n = array.length; 
          
-		System.out.println("Performing Quick Sort");
+        System.out.println("Performing Quick Sort");
 		
         QuickSort ob = new QuickSort(); 
         ob.sort(array, 0, n-1); 
