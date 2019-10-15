@@ -30,13 +30,6 @@ int minPalPartion(char* str)
 		C[i][i] = 0;
 	}
 
-	/* L is substring length. Build the
-	solution in bottom up manner by
-	considering all substrings of
-	length starting from 2 to n.
-	The loop structure is same as Matrx
-	Chain Multiplication problem
-	( See https:// www.geeksforgeeks.org/matrix-chain-multiplication-dp-8/ )*/
 	for (L = 2; L <= n; L++)
 	{
 		// For substring of length L, set
@@ -81,5 +74,3 @@ int main()
 	cout<<"Min cuts needed for Palindrome Partitioning is "<<minPalPartion(str);
 	return 0;
 }
-
-// This code is contributed by rathbhupendra
