@@ -7,7 +7,7 @@ void sieve() {
     int i, j;
 
     memset(isPrime, true, sizeof(isPrime))
-
+    //complexity will be O(nlog(log(n)))
     for(i = 2; i*i <= N; i++) {
         if(isPrime[i] == true) {
             for(j = i*i; j <= N; j = j+i)
