@@ -3,7 +3,7 @@ Write a function that selection sorts the array. Print the elements of sorted ar
 
 1.It reads a number N.
 2.Take Another N numbers as input and store them in an Array.
-3.Sort the array using Selection Sort and print that Array. */
+3.Sort the array using Selection Sort and print that Array now  in increasing order. */
 
 #include<iostream>
 
