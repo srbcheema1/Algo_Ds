@@ -11,9 +11,14 @@ bool compare(int a,int b){
 int main(){
 
     vector<int> v;
-
+    //Enter the number of inputs
+    int n;
+    cin>>n;
+   //input
+    int temp;
     for(int i=1;i<5;i++){
-        v.push_back(i);
+        cin>>temp;
+        v.push_back(temp);
     }
     int p;
     cin>>p;
