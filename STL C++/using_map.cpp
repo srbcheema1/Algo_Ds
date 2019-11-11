@@ -1,5 +1,9 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define map<int,int> hashmap
 map <int, int> m;
 map <int, int> :: iterator it;
+hashmap m4;
 
 m[1] = 2;
 m[2] = 3;
