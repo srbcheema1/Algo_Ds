@@ -1,9 +1,6 @@
-#include<iostream>
-#include<cstring>
-#include<vector>
-#include<algorithm>
+#include<bits/stdc++.h>
 using namespace std;
-
+//compare function to sort in increasing order or decreasing order
 bool compare(int a,int b){
     return a>b;
 }
