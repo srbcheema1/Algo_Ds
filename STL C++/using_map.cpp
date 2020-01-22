@@ -1,5 +1,9 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
 map <int, int> m;
-map <int, int> :: iterator it;
+map <int, int> :: iterator it;// auto *it;
 
 m[1] = 2;
 m[2] = 3;
@@ -20,3 +24,4 @@ if (it != m.end())
 else
     cout << "3 is not present as key" << endl;
 /* Output: 3 is not present as key */
+}
