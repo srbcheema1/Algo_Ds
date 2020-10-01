@@ -161,12 +161,7 @@ Node* sll::sllsearch(int ele){
 int main(){
     sll s;
     s.create();
+//  Insert your functions according to need here.
     s.display();
-    cout << "Enter ele\n";
-    int ele;
-    cin >> ele;
-    Node *x = s.sllsearch(ele);
-    cout << "The element is ";
-    cout << x -> data;
     return 0;
 }
