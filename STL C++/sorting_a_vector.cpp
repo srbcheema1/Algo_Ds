@@ -4,10 +4,6 @@
 #include<algorithm>
 using namespace std;
 
-bool compare(int a,int b){
-    return a>b;
-}
-
 int main(){
 
     vector<int> v;
@@ -28,7 +24,7 @@ int main(){
     }
     cout<<endl;
     ///Sort a vector
-    sort(v.begin(),v.end(),compare);
+    sort(v.begin(),v.end());
 
      for(int i=0;i<v.size();i++){
         cout<<v[i]<<" ";
