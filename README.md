@@ -41,6 +41,7 @@ Use this repo to study or review your knowledge and don't forget to star and col
  - C/C++
  - Python
  - Java 
+ - PHP
  - More to come
 
 ## How to contribute:
