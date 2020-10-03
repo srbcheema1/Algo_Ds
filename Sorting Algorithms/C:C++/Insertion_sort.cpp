@@ -14,16 +14,17 @@ void main()
 		cin>>arr[i];
 	}
 	cout<<"Sorting array using selection sort ... \n";
-	for(i=1; i<size; i++)
+	int j,small;
+	for(int i=1;i<size;i++)
 	{
-		temp=arr[i];
+		small=arr[i];
 		j=i-1;
-		while((temp<arr[j]) && (j>=0))
+		while((j>=0) && (small<arr[j]))
 		{
 			arr[j+1]=arr[j];
-			j=j-1;
+			j--;
 		}
-		arr[j+1]=temp;
+		arr[j+1]=small;
 	}
 	cout<<"Array after sorting : \n";
 	for(i=0; i<size; i++)
