@@ -1,0 +1,101 @@
+#include<stdio.h>
+#include<conio.h>
+struct node{
+	int info;
+	struct node *next;
+	
+};
+struct node1{
+int info1;
+struct node1 *next1;
+};
+struct node *front=NULL;
+struct node *rear=NULL;
+struct node1 *front1=NULL;
+struct node1 *rear1=NULL;
+void push1()
+{
+	int a;
+	printf("enter a number");
+	scanf("%d",&a);
+	struct node *s;
+	s=(struct node*)malloc(sizeof(struct node));
+	s->next=NULL;
+	s->info=a;
+	if(front==NULL)
+	{
+		front=rear=s;
+	}
+	else
+	{
+		rear->next=s;
+		rear=s;
+	}
+}
+void push2()
+{
+	int b;
+	printf("enter a number ");
+	scanf("%d",&b);
+	struct node1 *s1=(struct node1*)malloc(sizeof(struct node1));
+	s1->next1=NULL;
+	s1->info1=b;
+	if(front1==NULL)
+	{
+		front1=rear1=s1;
+		
+	}
+	else
+	{
+		rear1->next1=s1;
+		rear1=s1;
+	}
+}
+void merge()
+{
+	rear->next=front1;
+	
+	
+}
+void display()
+{
+	while(front->next!=front1)
+	{
+		printf("%d",&front->info);
+		printf(" ");
+		
+	}
+	printf("%d",&front->info);
+	while(front1->next1!=NULL)
+	{
+		printf("%d",&front1->info1);
+		printf(" ");
+	}
+	
+}
+void main()
+{
+	int choice;
+	while(1)
+	{
+		printf("1: for creat first linked list \n 2: for creat second linked list \n 3: for merge \n 4: for display");
+	scanf("%d",choice);
+	switch(choice)
+	{
+		case 1: 
+		push1();
+		break;
+		case 2:
+	     push2();
+	     break;
+	     case 3: 
+	     merge();
+	     break;
+	     case 4:
+	    	display();
+	    	break;
+	    	default:
+			printf("your input is incorrect");  
+		}	
+	}
+}
