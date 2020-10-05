@@ -22,7 +22,7 @@ int main(){
         for(int j=0;j<=n-times-2;j++){
             if(a[j]>a[j+1]){
                 ///Inbuild Swap Fn
-                swap(a[j],a[j+1]);
+                swap(a[j],a[j+1]);//swaps values at j and j+1 indices in array a.
                 swaps++;
             }
         }
