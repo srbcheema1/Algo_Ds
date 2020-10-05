@@ -17,9 +17,11 @@ int main(){
     }
     int p;
     cin>>p;
+    // the position at which we wanna insert in vector.
 
     int d;
     cin>>d;
+    // the element we wanna insert at v.begin()+p
 
     v.insert(v.begin() + p,d);
 
