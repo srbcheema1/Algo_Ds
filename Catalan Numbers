@@ -1,0 +1,37 @@
+/*
+In combinatorial mathematics, the Catalan numbers form a sequence of natural numbers that occur in various counting problems, often involving recursively defined objects.
+There are many counting problems in combinatorics whose solution is given by the Catalan numbers. The book Enumerative Combinatorics: Volume 2 by combinatorialist Richard P. Stanley contains a set of exercises which describe 66 different interpretations of the Catalan numbers. Following are some examples, with illustrations of the cases C3 = 5 and C4 = 14.
+
+
+Lattice of the 14 Dyck words of length 8 – ( and ) interpreted as up and down
+Cn is the number of Dyck words[4] of length 2n. A Dyck word is a string consisting of n X's and n Y's such that no initial segment of the string has more Y's than X's. For example, the following are the Dyck words of length 6:
+XXXYYY     XYXXYY     XYXYXY     XXYYXY     XXYXYY.
+Re-interpreting the symbol X as an open parenthesis and Y as a close parenthesis, Cn counts the number of expressions containing n pairs of parentheses which are correctly matched:
+((()))     ()(())     ()()()     (())()     (()())
+Cn is the number of different ways n + 1 factors can be completely parenthesized (or the number of ways of associating n applications of a binary operator). For n = 3, for example, we have the following five different parenthesizations of four factors:
+((ab)c)d     (a(bc))d     (ab)(cd)     a((bc)d)     a(b(cd))
+
+The associahedron of order 4 with the C4=14 full binary trees with 5 leaves
+Successive applications of a binary operator can be represented in terms of a full binary tree. (A rooted binary tree is full if every vertex has either two children or no children.) It follows that Cn is the number of full binary trees with n + 1 leaves:
+Catalan number binary tree example.png.
+So here is a code Which generates a series of catalan numbers
+*/
+
+
+#include<iostream>
+using namespace std;
+int main() {
+	int n;
+	cin>>n;
+	long long cn[n];
+	cn[0] = cn[1] = 1;
+	for(int i = 2; i<=n; i++){
+		cn[i] = 0;
+		for(int j = 0; j<i; j++){
+			cn[i] += cn[j]*cn[i-j-1];
+		}
+	}
+	cout<<cn[n]<<endl;;
+
+	return 0;
+}
