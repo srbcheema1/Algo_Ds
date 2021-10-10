@@ -3,7 +3,7 @@
 
 ## please maintain the directory structure as in this example
 
-- Data structures
+- Data structures Of Project
    - stack
       - DESCRIPTION.md
       - Python
