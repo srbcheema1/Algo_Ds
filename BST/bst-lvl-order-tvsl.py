@@ -1,6 +1,29 @@
+#Problem name 102. Binary Tree Level Order Traversal
+#https://leetcode.com/problems/binary-tree-level-order-traversal/
+# Complexity 
+#   time ->  O(n)
+#   memory -> O(n)
+"""
+Tree Structure 
+
+                  Root
+                   |
+                  100
+                /      \ 
+               50       180
+              /  \     /    \
+             40   60   150   190
+            /            \      \
+           30             160     200
+
+"""
+
+
 # Definition for a binary tree node.
 import collections
 
+
+#structure of the Tree node
 class TreeNode:
     def __init__(self, val, left=None, right=None):
         self.left = left
@@ -8,22 +31,24 @@ class TreeNode:
         self.val = val
 
 
-# -> List[List[int]]:
+# Output -> List[List[int]]:
+#Level starts form 0 to .... n
+
 class Solution:
     def levelOrder(self, root):
-        self.l=collections.defaultdict(list)
-        def dfs(r, lv):
+        self.lst=collections.defaultdict(list)
+        def dfs(r, lvl):
             if not r:
                 return 
-            self.l[lv].append(r.val)
-            dfs(r.left, lv+1)
-            dfs(r.right, lv+1)
+            self.lst[lvl].append(r.val)
+            dfs(r.left, lvl+1)
+            dfs(r.right, lvl+1)
             return 
-        dfs(root, 0)
-        r =[]
-        for key in sorted(self.l.keys(), reverse =False):
-            r.append(self.l[key])
-        return r
+        dfs(root, 0) #DFS approach ot visit the tree in recurssive approach with value and level
+        res =[]
+        for key in sorted(self.lst.keys(), reverse =False):
+            res.append(self.lst[key])
+        return res
 
 
 # intiate nodes of the Tree
