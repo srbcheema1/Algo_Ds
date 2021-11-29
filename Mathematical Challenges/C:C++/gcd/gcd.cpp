@@ -13,6 +13,7 @@ int gcd(int a,int b){
 int main()
 {
 	int t=1,a,b,ans;
+	cout<<"Input the numbers:";
 	scanf("%d",&t);
 	while(t--)
 	{
