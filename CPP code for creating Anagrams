@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+class Solution {
+public:
+   int minSteps(string s, string t) {
+      int n = s.size();
+      map <char, int> m1;
+      for(int i = 0; i < s.size(); i++){
+         m1[s[i]]++;
+      }
+      int ret = n;
+      map <char, int> m2;
+      for(int i = 0; i < t.size(); i++){
+         m2[t[i]]++;
+      }
+      map <char, int> :: iterator it = m1.begin();
+      while(it != m1.end()){
+         //cout << it->first << " " << it->second << " " << m2[it->first] << endl;
+         int x = min(it->second, m2[it->first]);
+         ret -= x;
+         it++;
+      }
+      return ret;
+   }
+};
+main(){
+   Solution ob;
+   cout << (ob.minSteps("yxy", "xyx"));
+}
