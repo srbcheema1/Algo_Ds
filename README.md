@@ -27,6 +27,10 @@ Use this repo to study or review your knowledge and don't forget to star and col
 
  - Dijkstra
  - Floyd Warshall
+ - Bellman-Ford Algorithm
+ - Johnson's Algorithm
+ - Bidirectional Dijkstra's Algorithm
+   
 
 ### Common Data Structures
 
@@ -35,6 +39,10 @@ Use this repo to study or review your knowledge and don't forget to star and col
  - stack
  - Array
  - Linked List
+ - Trees
+ - Graphs
+ - Hash Maps
+ - Sets
 
 ## Languages Used:
 
